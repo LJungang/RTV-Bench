@@ -15,6 +15,6 @@ $\mathcal{RTV}\text{-}Bench$
 
 ## Examples
 <p align="center">
-    <embed src="./asset/1_examples.pdf" type="application/pdf" width="100%" height="100%" >
+    <img src="./asset/1_examples.png" width="100%" height="100%" >
 </p>
 
