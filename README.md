@@ -8,6 +8,11 @@
 ## 🔥 News
 * **`2025.05.03`** 🌟 We are happy to release the $\mathcal{RTV}\text{-}Bench$. You can find the $\mathcal{RTV}\text{-}Bench$ from [![hf_checkpoint](https://img.shields.io/badge/🤗-RTV--Bench-9C276A.svg)](https://huggingface.co/datasets/xunsh/RTV-Bench) or [![ms_checkpoint](https://img.shields.io/badge/🤖-RTV--Bench-8A2BE2.svg)](https://www.modelscope.cn/datasets/Jungang/RTV-Bench).
 
+## TODO
+- [ ] Release the final label json.
+- [ ] Release the evaluation code.
+- [ ] Construct a more comprehensive benchmark for real-time video analysis.
+- [ ] ···
 ## 👀 $\mathcal{RTV}\text{-}Bench$ Overview
 
 We introduce $\mathcal{RTV}\text{-}Bench$, a fine-grained benchmark for MLLM real-time video analysis, which contains **552** videos (167.2 hours) and **4,631** high-quality QA pairs. We evaluated leading MLLMs, including proprietary (GPT-4o, Gemini 2.0), open-source offline (Qwen2.5-VL, VideoLLaMA3), and open-source real-time (VITA-1.5, InternLM-XComposer2.5-OmniLive) models. Experiment results show open-source real-time models largely outperform offline ones but still trail top proprietary models. Our analysis also reveals that larger model size or higher frame sampling rates do not significantly boost $\mathcal{RTV}\text{-}Bench$ performance, sometimes causing slight decreases. This underscores the need for better model architectures optimized for video stream processing and long sequences to advance real-time video analysis with MLLMs.  $\mathcal{RTV}\text{-}Bench$ includes three key principles: 
