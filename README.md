@@ -53,5 +53,4 @@ If you find our work helpful for your research, please consider citing our work.
   journal={arXiv preprint arXiv:2505.02064},
   year={2025}
 }
-}
 ```
