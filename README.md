@@ -47,6 +47,11 @@ We introduce $\mathcal{RTV}\text{-}Bench$, a fine-grained benchmark for MLLM rea
 If you find our work helpful for your research, please consider citing our work.   
 
 ```bibtex
-
+@article{xun2025rtv,
+  title={RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video},
+  author={Xun, Shuhang and Tao, Sicheng and Li, Jungang and Shi, Yibo and Lin, Zhixin and Zhu, Zhanhui and Yan, Yibo and Li, Hanqian and Zhang, Linghao and Wang, Shikang and others},
+  journal={arXiv preprint arXiv:2505.02064},
+  year={2025}
+}
 }
 ```
