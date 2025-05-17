@@ -6,10 +6,11 @@
 
 
 ## 🔥 News
+* **`2025.05.17`** 🎉 We have released the label json, which is named `QA.json`.
 * **`2025.05.03`** 🌟 We are happy to release the $\mathcal{RTV}\text{-}Bench$. You can find the $\mathcal{RTV}\text{-}Bench$ from [![hf_checkpoint](https://img.shields.io/badge/🤗-RTV--Bench-9C276A.svg)](https://huggingface.co/datasets/xunsh/RTV-Bench) or [![ms_checkpoint](https://img.shields.io/badge/🤖-RTV--Bench-8A2BE2.svg)](https://www.modelscope.cn/datasets/Jungang/RTV-Bench).
 
 ## TODO
-- [ ] Release the final label json.
+- [x] Release the final label json.
 - [ ] Release the evaluation code.
 - [ ] Construct a more comprehensive benchmark for real-time video analysis.
 - [ ] ···
