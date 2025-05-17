@@ -1,13 +1,21 @@
+
+
+
+
 <div align="center">
   <h1>$\mathcal{RTV}\text{-}Bench$: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video</h1> 
+        If our project helps you, please give us a star ⭐ on GitHub to support us. 🙏🙏
+
+
+[![arXiv](https://img.shields.io/badge/arXiv-2504.16359-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2505.02064) [![hf_checkpoint](https://img.shields.io/badge/🤗-RTV--Bench-9C276A.svg)](https://huggingface.co/datasets/xunsh/RTV-Bench) [![ms_checkpoint](https://img.shields.io/badge/🤖-RTV--Bench-8A2BE2.svg)](https://www.modelscope.cn/datasets/Jungang/RTV-Bench)  
 </div>
-
-[![hf_checkpoint](https://img.shields.io/badge/🤗-RTV--Bench-9C276A.svg)](https://huggingface.co/datasets/xunsh/RTV-Bench) [![ms_checkpoint](https://img.shields.io/badge/🤖-RTV--Bench-8A2BE2.svg)](https://www.modelscope.cn/datasets/Jungang/RTV-Bench)  
-
 
 ## 🔥 News
 * **`2025.05.17`** 🎉 We have released the label json, which is named `QA.json`.
 * **`2025.05.03`** 🌟 We are happy to release the $\mathcal{RTV}\text{-}Bench$. You can find the $\mathcal{RTV}\text{-}Bench$ from [![hf_checkpoint](https://img.shields.io/badge/🤗-RTV--Bench-9C276A.svg)](https://huggingface.co/datasets/xunsh/RTV-Bench) or [![ms_checkpoint](https://img.shields.io/badge/🤖-RTV--Bench-8A2BE2.svg)](https://www.modelscope.cn/datasets/Jungang/RTV-Bench).
+<p align="center">
+    <img src="./asset/1_examples.png" width="100%" height="100%" >
+</p>
 
 ## TODO
 - [x] Release the final label json.
@@ -29,11 +37,6 @@ We introduce $\mathcal{RTV}\text{-}Bench$, a fine-grained benchmark for MLLM rea
     (Right) Distribution of question queries by video length, categorized into Shallow, Moderate, and Deep levels. The bar heights indicate counts, while the line chart overlays query proportions for each duration bucket.
 </p>
 
-## 📖Examples
-<p align="center">
-    <img src="./asset/1_examples.png" width="100%" height="100%" >
-</p>
-
 ## 🔖Evaluation Results
 <p align="center">
     <img src="./asset/3_evaluation.png" width="100%" height="100%">
@@ -43,10 +46,8 @@ We introduce $\mathcal{RTV}\text{-}Bench$, a fine-grained benchmark for MLLM rea
 
 [![Star History Chart](https://api.star-history.com/svg?repos=LJungang/RTV-Bench&type=Date)](https://star-history.com/#LJungang/RTV-Bench&Date)
 
-## :black_nib: Citation
-
-If you find our work helpful for your research, please consider citing our work.   
-
+## 📑 Citation
+If you find $\mathcal{RTV}\text{-}Bench$ useful for your research and applications, please cite using this BibTeX:
 ```bibtex
 @article{xun2025rtv,
   title={RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video},
