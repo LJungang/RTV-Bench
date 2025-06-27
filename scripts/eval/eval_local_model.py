@@ -157,22 +157,7 @@ class ModelWrapper:
         frames,fps= self._extract_frames(video_path)
 
         
-        if self.model_type == "videollama":
-            prompt = self._build_prompt(question, options)
-            raw_output = self.model.generate(frames, prompt)
-            return self._parse_output(raw_output, options)
-       
-        elif self.model_type == "videochatgpt":
-            inputs = self.processor(
-                videos=[frames], 
-                text=question,
-                options=options,
-                return_tensors="pt"
-            )
-            outputs = self.model(**inputs)
-            return outputs['prediction']
-        
-        elif self.model_type=="qwen2.5-vl-7b-instruct":
+        if self.model_type=="qwen2.5-vl-7b-instruct":
             option_prompt='\nOptions: '
             for opt in options.keys():
                 option_prompt+=opt+'. '+options[opt]+'\n'
