@@ -44,6 +44,11 @@ We introduce $\mathcal{RTV}\text{-}Bench$, a fine-grained benchmark for MLLM rea
     <img src="./asset/3_evaluation.png" width="100%" height="100%">
 </p>
 
+## 🛠️Evaluation 
+```shell
+bash scripts/eval/eval_model.sh
+```
+
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=LJungang/RTV-Bench&type=Date)](https://star-history.com/#LJungang/RTV-Bench&Date)
