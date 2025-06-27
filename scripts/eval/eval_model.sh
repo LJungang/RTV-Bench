@@ -14,7 +14,7 @@ NUM_SPLITS=4
 LOG_DIR="./run_log/parallel_${MODEL_NAME}"
 mkdir -p $LOG_DIR
 
-python ./scripts/eval/split.py \
+python ./scripts/data_process/split.py \
       --num_splits $NUM_SPLITS
 
 for split_id in $(seq 1 $NUM_SPLITS); do
