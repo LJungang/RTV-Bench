@@ -18,7 +18,7 @@ python ./scripts/eval/split.py \
       --num_splits $NUM_SPLITS
 
 for split_id in $(seq 1 $NUM_SPLITS); do
-    CUDA_VISIBLE_DEVICES=$(( (split_id-1) % 2 ))  python ./scripts/eval/demo.py \
+    CUDA_VISIBLE_DEVICES=$(( (split_id-1) % 2 ))  python ./scripts/eval/eval_local_model.py \
         --annotation "./data/RTV-Bench/splits/split_${split_id}.json" \
         --video_root "./data/RTV-Bench" \
         --output_dir "./eval_results/${MODEL_NAME}_${SAMPLE_FRAMES}f/split_${split_id}" \
