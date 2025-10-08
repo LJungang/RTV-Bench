@@ -11,7 +11,7 @@
 </div>
 
 ## 🔥 News
-* **`2025-09-20`** 🎉🎉🎉 Our paper has been accepted by Nips 2025, we will update our dataset and code for community as soon as possible~
+* **`2025-09-20`** 🎉🎉🎉 Our paper has been accepted by NeurIPS 2025, we will update our dataset and code for community as soon as possible~
 * **`2025-06-27`** 🎉 We update core code for evaluation.
 * **`2025-05-17`** 🎉 We have released the label json, which is named `QA.json`.
 * **`2025-05-04`** 🎉  We released the paper $\mathcal{RTV}\text{-}Bench$: [Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](https://arxiv.org/abs/2505.02064).
