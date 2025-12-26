@@ -96,10 +96,12 @@ bash scripts/eval/eval_model.sh
 ## 📑 Citation
 If you find $\mathcal{RTV}\text{-}Bench$ useful for your research and applications, please cite using this BibTeX:
 ```bibtex
-@article{xun2025rtv,
+@inproceedings{xun2025rtv,
   title={RTV-Bench: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video},
-  author={Xun, Shuhang and Tao, Sicheng and Li, Jungang and Shi, Yibo and Lin, Zhixin and Zhu, Zhanhui and Yan, Yibo and Li, Hanqian and Zhang, Linghao and Wang, Shikang and others},
-  journal={arXiv preprint arXiv:2505.02064},
-  year={2025}
+  author={Xun, Shuhang and Tao, Sicheng and Li, Jungang and Shi, Yibo and Lin, Zhixin and Zhu, Zhanhui and Yan, Yibo and Li, Hanqian and Zhang, Linghao and Wang, Shikang and Liu, Yixin and Zhang, Hanbo and Ma, Ying and Hu, Xuming},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={38},
+  year={2025},
+  organization={NeurIPS}
 }
 ```
