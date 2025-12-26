@@ -52,6 +52,7 @@
 
 ## 🔥 News
 
+- **`2025-12-27`** 📚 We released an [open-source survey repo](https://github.com/LJungang/Awesome-Video-Reasoning-Landscape) ![](https://img.shields.io/github/stars/LJungang/Awesome-Video-Reasoning-Landscape?style=social)on the landscape of `video reasoning`, covering CoT-based, CoF-based, Interleaved, and Streaming paradigms.  
 * **`2025-09-20`** 🎉 Our paper has been accepted by NeurIPS 2025, we will update our dataset and code for community as soon as possible~
 * **`2025-06-27`** 🎉 We update core code for evaluation.
 * **`2025-05-17`** 🎉 We have released the label json, which is named `QA.json`.
