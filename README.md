@@ -1,5 +1,10 @@
 <div align="center">
-  <h1>$\mathcal{RTV}\text{-}Bench$: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video</h1>
+  <h2>
+  <a href="https://github.com/LJungang/RTV-Bench">
+    𝓡𝓣𝓥-𝓑𝓮𝓷𝓬𝓱: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video
+  </a>
+</h2>
+
 </div>
 <p align="center">
   Shuhang Xun<sup>1*</sup>,
@@ -43,14 +48,14 @@
 <p align="center">
   If our project helps you, please give us a star ⭐ on GitHub to support us.
   <br>
-  <img src="https://img.shields.io/github/stars/LJungang/RTV-Bench?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/stars/LJungang/RTV-Bench?style=flat-square&color=E0E0E0&label=Stars" alt="GitHub stars">
 </p>
 </div>
 
 
 
 
-## 🔥 News
+## 📰 News
 
 - **`2025-12-27`** 📚 We released an [open-source survey repo](https://github.com/LJungang/Awesome-Video-Reasoning-Landscape) ![](https://img.shields.io/github/stars/LJungang/Awesome-Video-Reasoning-Landscape?style=social)on the landscape of `video reasoning`, covering CoT-based, CoF-based, Interleaved, and Streaming paradigms.  
 * **`2025-09-20`** 🎉 Our paper has been accepted by NeurIPS 2025, we will update our dataset and code for community as soon as possible~
