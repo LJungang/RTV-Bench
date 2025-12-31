@@ -61,7 +61,7 @@
 * **`2025-09-20`** 🎉 Our paper has been accepted by NeurIPS 2025, we will update our dataset and code for community as soon as possible~
 * **`2025-06-27`** 🎉 We update core code for evaluation.
 * **`2025-05-17`** 🎉 We have released the label json, which is named `QA.json`.
-* **`2025-05-04`** 🎉  We released the paper $\mathcal{RTV}\text{-}Bench$: [Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](https://arxiv.org/abs/2505.02064).
+* **`2025-05-04`** 🎉  We released the paper [𝓡𝓣𝓥-𝓑𝓮𝓷𝓬𝓱: Benchmarking MLLM Continuous Perception, Understanding and Reasoning through Real-Time Video](https://arxiv.org/abs/2505.02064).
 * **`2025-05-03`** 🌟 We are happy to release the $\mathcal{RTV}\text{-}Bench$. You can find the $\mathcal{RTV}\text{-}Bench$ from [![hf_checkpoint](https://img.shields.io/badge/🤗-RTV--Bench-9C276A.svg?style=flat-square)](https://huggingface.co/datasets/xunsh/RTV-Bench) or [![ms_checkpoint](https://img.shields.io/badge/🤖-RTV--Bench-8A2BE2.svg?style=flat-square)](https://www.modelscope.cn/datasets/Jungang/RTV-Bench).
 ---
 ## 🔎 Overview
