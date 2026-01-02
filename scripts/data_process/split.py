@@ -30,7 +30,4 @@ if __name__ == "__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument('--num_splits',required=True,default=4,type=int)
     args = parser.parse_args()
-    if args.num_splits==4:
-        pass
-    else:
-        split_annotation("./data/RTV-Bench/annotation_constructed_1.json",args)
+    split_annotation("./rtv-bench/QA.json",args)
