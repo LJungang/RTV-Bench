@@ -85,6 +85,95 @@ The benchmark contains **552 videos** and **4,631 high-quality QA pairs**, cover
 
 ---
 
+
+## 🛠️ Evaluation
+
+This section introduces the environment setup, data preparation, and evaluation pipeline for RTV-Bench, and presents a minimal working example based on `Qwen2.5-VL` for model inference and result evaluation.
+
+---
+
+### 1. Environment Setup
+
+First, clone the repository and create a dedicated conda environment:
+
+    git clone git@github.com:LJungang/RTV-Bench.git
+    cd RTV-Bench
+
+    conda create -n rtv-bench python=3.10
+    conda activate rtv-bench
+
+Install the required dependencies:
+
+    pip install transformers==4.57.0
+    pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 \
+      --index-url https://download.pytorch.org/whl/cu128
+    pip install qwen_vl_utils
+    pip install accelerate
+    pip install opencv-python==4.12.0.88
+    pip install decord==0.6.0
+
+---
+
+### 2. Download RTV-Bench Dataset
+
+Download the RTV-Bench dataset from Hugging Face:
+
+    mkdir rtv-bench
+    huggingface-cli download \
+      --repo-type dataset \
+      --resume-download \
+      RTVBench/RTV-Bench \
+      --local-dir ./rtv-bench \
+      --local-dir-use-symlinks False
+
+---
+
+### 3. Download Model Checkpoints
+
+Download the Qwen2.5-VL model checkpoints:
+
+    mkdir ckpts
+    huggingface-cli download \
+      --repo-type model \
+      --resume-download \
+      Qwen/Qwen2.5-VL-7B-Instruct \
+      --local-dir ./ckpts \
+      --local-dir-use-symlinks False
+
+**Note:** Access to the model repository may require a valid Hugging Face token.
+
+---
+
+### 4. Data Preparation
+
+RTV-Bench evaluation operates on **video clips** rather than raw long videos.  
+Prepare the clips by splitting raw videos according to the provided timestamps:
+
+    bash scripts/data_preparation/1_prepare_rtv_clips.sh
+
+This script preprocesses the raw videos and generates temporally aligned video clips used for inference and evaluation.
+
+---
+
+### 5. Model Inference
+
+Run offline inference using **Qwen2.5-VL-7B-Instruct**:
+
+    bash scripts/eval/infer_offline_qwen2_5_vl_7b_instruct_16f.sh
+
+The script performs batch inference on the prepared video clips and saves model predictions for subsequent evaluation.
+
+---
+
+### 6. Evaluation
+
+Finally, evaluate the generated predictions using the official evaluation script:
+
+    bash scripts/eval/eval_model.sh
+
+This step computes benchmark metrics and reports the final performance on RTV-Bench.
+
+
 ## 🔖 Evaluation Results
 
 <p align="center">
@@ -92,10 +181,6 @@ The benchmark contains **552 videos** and **4,631 high-quality QA pairs**, cover
 </p>
 
 ---
-## 🛠️Evaluation 
-```shell
-bash scripts/eval/eval_model.sh
-```
 
 
 ## 📑 Citation
