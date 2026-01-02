@@ -169,7 +169,7 @@ The script performs batch inference on the prepared video clips and saves model 
 
 Finally, evaluate the generated predictions using the official evaluation script:
 
-    bash scripts/eval/eval_model.sh
+    
 
 This step computes benchmark metrics and reports the final performance on RTV-Bench.
 
