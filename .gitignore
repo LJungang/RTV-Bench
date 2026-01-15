@@ -1,0 +1,15 @@
+# dataset
+rtv-bench
+
+# ckpts
+ckpts
+
+# logs
+run_log
+eval_results
+
+# eval
+eval_results
+eval_statics
+
+*__pycache__/

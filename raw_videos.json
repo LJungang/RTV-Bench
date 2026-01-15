@@ -1,0 +1,34 @@
+[
+  {
+    "video": "SportsCam_004.mp4",
+    "clip_path": "./rtv-bench/videos/sports_cam/SportsCam_004.mp4"
+  },
+  {
+    "video": "SportsCam_017.mp4",
+    "clip_path": "./rtv-bench/videos/sports_cam/SportsCam_017.mp4"
+  },
+  {
+    "video": "SportsCam_039.mp4",
+    "clip_path": "./rtv-bench/videos/sports_cam/SportsCam_039.mp4"
+  },
+  {
+    "video": "SportsCam_056.mp4",
+    "clip_path": "./rtv-bench/videos/sports_cam/SportsCam_056.mp4"
+  },
+  {
+    "video": "SportsCam_067.mp4",
+    "clip_path": "./rtv-bench/videos/sports_cam/SportsCam_067.mp4"
+  },
+  {
+    "video": "SportsCam_031.mp4",
+    "clip_path": "./rtv-bench/videos/sports_cam/SportsCam_031.mp4"
+  },
+  {
+    "video": "SportsCam_076.mp4",
+    "clip_path": "./rtv-bench/videos/sports_cam/SportsCam_076.mp4"
+  },
+  {
+    "video": "SportsCam_055.mp4",
+    "clip_path": "./rtv-bench/videos/sports_cam/SportsCam_055.mp4"
+  }
+]
